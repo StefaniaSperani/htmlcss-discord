@@ -58,11 +58,8 @@ a {
     align-items: center;
 }
 
-.flexbox-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.center{
+    text-align: center;
 }
 /* header specifiche */
 
@@ -145,4 +142,7 @@ section h2 {
     padding: 50px 100px
 }
 
-       
+/* Modifica img centrata */
+img.centro {
+    width: 100%;
+}
