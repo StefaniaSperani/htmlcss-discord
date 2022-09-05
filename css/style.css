@@ -115,13 +115,14 @@ header p {
 
 .left {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-end;
-
-
+    justify-content: flex-start;
+    margin: 50px auto;
 }
 
 .sectionleft {
-    width: 50%;
+    width: 60%;
+}
 
+.testo {
+    padding-top: 30px;
 }
