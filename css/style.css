@@ -58,6 +58,12 @@ a {
     align-items: center;
 }
 
+.flexbox-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 /* header specifiche */
 
 header nav.container {
@@ -117,6 +123,14 @@ p {
     margin: 50px auto;
 }
 
+ /* Destra */
+ .right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin: 50px auto;
+}
+/* Genercio Sezioni */
 section img{
     width: 60%;
 }
@@ -131,10 +145,4 @@ section h2 {
     padding: 50px 100px
 }
 
-        /* Destra */
-.right {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row-reverse;
-    margin: 50px auto;
-}
+       
