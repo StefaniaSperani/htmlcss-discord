@@ -118,14 +118,15 @@ p {
 }
 
 .sectionleft {
-    width: 60%;
+    width: 550%;
 }
 
 section h2 {
-    font-size: 30px;
-    padding: 50px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    line-height: 50px;
 }
 
-section p{
-    font-size: 15px;
+.testo {
+    padding: 150px 150px 50px 70px;
 }
