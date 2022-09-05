@@ -102,7 +102,6 @@ p {
 
 .btn2{
     display: inline-block;
-    background-color: #ffffff;
     background-color: #23272A;
     color: #ffffff;
     font-weight: bold;
@@ -112,6 +111,17 @@ p {
     margin-left: 15px;
 }
 
+.btn3 {
+    display: inline-block;
+    background-color: #8ea1e1;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 13px 20px;
+    text-decoration: none;
+    margin-left: 15px;
+
+}
 /* Sezioni */
         /* Sinistra */
 .left {
@@ -127,7 +137,7 @@ p {
     flex-direction: row-reverse;
     margin: 50px auto;
 }
-/* Genercio Sezioni */
+/* Generico Sezioni */
 section img{
     width: 60%;
 }
@@ -146,3 +156,8 @@ section h2 {
 img.centro {
     width: 100%;
 }
+
+.stars img{
+    margin-bottom: -20px;
+}
+
