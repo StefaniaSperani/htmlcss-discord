@@ -117,10 +117,9 @@ p {
     margin: 50px auto;
 }
 
-.sectionleft {
-    width: 70%;
+section img{
+    width: 60%;
 }
-
 section h2 {
     font-size: 40px;
     padding-bottom: 20px;
