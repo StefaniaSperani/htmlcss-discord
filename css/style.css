@@ -110,7 +110,7 @@ p {
 }
 
 /* Sezioni */
-
+        /* Sinistra */
 .left {
     display: flex;
     justify-content: flex-start;
@@ -118,15 +118,24 @@ p {
 }
 
 .sectionleft {
-    width: 550%;
+    width: 70%;
 }
 
 section h2 {
     font-size: 40px;
     padding-bottom: 20px;
     line-height: 50px;
+    font-weight: 750;
 }
 
 .testo {
-    padding: 150px 150px 50px 70px;
+    padding: 50px 100px
+}
+
+        /* Destra */
+.right {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    margin: 50px auto;
 }
