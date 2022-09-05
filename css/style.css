@@ -75,8 +75,7 @@ header nav ul {
     margin: 0 auto;
     text-align: center;
     color: #ffffff;
-    padding-top: 150px;
-    
+    padding-top: 150px;   
 }
 
 h1 {
@@ -120,7 +119,6 @@ p {
     padding: 13px 20px;
     text-decoration: none;
     margin-left: 15px;
-
 }
 /* Sezioni */
         /* Sinistra */
@@ -128,6 +126,7 @@ p {
     display: flex;
     justify-content: flex-start;
     margin: 50px auto;
+    width: 100%;
 }
 
  /* Destra */
@@ -159,7 +158,7 @@ img.centro {
 }
 
 .stars img{
-    margin-bottom: -20px;
+    margin-bottom: -100px;
 }
 
 /* Wave */
