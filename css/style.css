@@ -178,8 +178,8 @@ img.centro {
 }
 
 .stars img{
-    margin-bottom: ;
-    width: 30%;
+    margin-bottom: -15px;
+    width: 65%;
 }
 
 h3 {
@@ -241,7 +241,8 @@ hr{
 }
 
 .register{
-    display: inline-block;
+    display: block;
+    float: right;
     background-color: #8EA1E1;
     color: #ffffff;
     font-weight: bold;
@@ -249,7 +250,6 @@ hr{
     padding: 5px 15px;
     text-decoration: none;
     margin-top: 40px;
-    Float: right;
 }
 
 .register:hover {
