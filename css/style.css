@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
-.debug{ /*da rimuovere*/
-    border: 1px solid black;
-    min-height: 100px;
+.clearfix::after {
+    content: "";
+    clear: both;
+   display: table;
 }
 
 /* general */
@@ -238,6 +239,7 @@ hr{
 #logods{
     margin-top: 40px;
 }
+
 .register{
     display: inline-block;
     background-color: #8EA1E1;
@@ -247,7 +249,7 @@ hr{
     padding: 5px 15px;
     text-decoration: none;
     margin-top: 40px;
-    float: right;
+    Float: right;
 }
 
 .register:hover {
