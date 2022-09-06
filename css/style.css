@@ -20,8 +20,6 @@ body {
 }
 
 header { 
-    /* Ho spostato l'img nell'header perchè mettendola nella sezione dell'hero
-    risultava più lunga e quindi non centrava bene la sezione con l'h1 */
     background-color: #3161e0;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -95,6 +93,11 @@ h1 {
     margin-top: 20px;
 }
 
+.btn:hover {
+    box-shadow: 0 10px 10px 0 rgba(33,33,33,.3);
+    color: #707BF4; 
+  }
+
 .btn2{
     display: inline-block;
     background-color: #23272A;
@@ -106,6 +109,11 @@ h1 {
     margin-left: 15px;
 }
 
+.btn2:hover {
+    box-shadow: 0 10px 10px 0 rgba(33,33,33,.3);
+}
+
+
 .btn3 {
     display: inline-block;
     background-color: #8ea1e1;
@@ -116,6 +124,11 @@ h1 {
     text-decoration: none;
     margin-left: 15px;
 }
+
+.btn3:hover {
+    box-shadow: 0 10px 10px 0 rgba(33,33,33,.3);
+}
+
 /* Sezioni */
         /* Sinistra */
 .left {
@@ -143,10 +156,6 @@ h1 {
 }
 
 /* Generico Sezioni */
-section img{
-    /* width: 60%; */
-    /* padding-bottom: 80px; */
-}
 section h2 {
     font-size: 40px;
     padding-bottom: 20px;
@@ -193,6 +202,7 @@ h3 {
 }
 
 /* Footer */
+
 li h2 {
     color: #7289DA;
     font-size: 35px;
@@ -240,6 +250,10 @@ hr{
     float: right;
 }
 
+.register:hover {
+    box-shadow: 0 5px 5px 0 rgba(255, 255, 255, 0.3);
+}
+
 /* PAGINA LOGIN */
 .login-bg{
     background-image: url(../img/sfondo.svg);
@@ -255,9 +269,7 @@ hr{
     border-radius: 10px;
     max-width: 1000px;
     height: 500px;
-    margin-top: 300px
-    
-    
+    margin-top: 300px 
 }
 
 .flexwrap {
@@ -294,6 +306,7 @@ hr{
     width: 100%;
     padding: 20px;
     margin-top: -20px;
+    border: 0;
 }
 
 .asterisco{
@@ -304,17 +317,23 @@ hr{
     color: #0A98D1;
     text-decoration: none;
     font-weight: bold;
+    margin-top: -15px;
 }
 
 .btn-accedi{
     color: #ffffff;
-    background-color: #4752C4;
-    padding: 20px;
+    background-color: #5865f2;
+    padding: 15px;
     border-radius: 10px;
     width: 100%;
     text-align: center;
     margin: 10px auto;
 }
+    
+.btn-accedi:hover {
+        background-color: #4752C4;
+        color: white;
+      }
 
 h4{
     color: #ffffff;
