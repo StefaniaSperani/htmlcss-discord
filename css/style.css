@@ -92,6 +92,7 @@ h1 {
     padding: 13px 20px;
     text-decoration: none;
     margin-left: 15px;
+    margin-top: 20px;
 }
 
 .btn2{
@@ -217,4 +218,31 @@ li img{
     padding-right: 10px;
     font-size: 25px;
     padding-top: 15px;
+}
+
+hr{
+    border-color: #7289DA;
+    margin-top: 15px;
+}
+
+#logods{
+    margin-top: 40px;
+}
+.register{
+    display: inline-block;
+    background-color: #8EA1E1;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-top: 40px;
+    float: right;
+}
+
+/* PAGINA LOGIN */
+#login-bg{
+    background-image: url(../img/sfondo.svg);
+    background-color: #5865F2;
+    height: 1000px;
 }
