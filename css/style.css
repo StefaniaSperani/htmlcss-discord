@@ -35,12 +35,13 @@ footer {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1170px;
     margin: auto;
 }
 
 .bg-gray {
     background-color: #F6F6F6;
+    padding-bottom: 100px;
 }
 
 li {
@@ -51,6 +52,7 @@ a {
     text-decoration: none;
     color: #ffffff;
 }
+
 .flexbox {
     display: flex;
     flex-flow: row wrap;
@@ -58,9 +60,6 @@ a {
     align-items: center;
 }
 
-.center{
-    text-align: center;
-}
 /* header specifiche */
 
 header nav.container {
@@ -80,10 +79,6 @@ header nav ul {
 
 h1 {
     font-size: 55px;
-    padding-bottom: 30px;
-}
-
-p {
     padding-bottom: 30px;
 }
 
@@ -126,7 +121,7 @@ p {
     display: flex;
     justify-content: flex-start;
     margin: 50px auto;
-    width: 100%;
+    padding: 0 auto;
 }
 
  /* Destra */
@@ -135,11 +130,21 @@ p {
     justify-content: flex-start;
     flex-direction: row-reverse;
     margin: 50px auto;
+    padding: 0 auto;
 }
+
+.center{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
 /* Generico Sezioni */
 section img{
-    width: 60%;
-    padding-bottom: 80px;
+    /* width: 60%; */
+    /* padding-bottom: 80px; */
 }
 section h2 {
     font-size: 40px;
@@ -152,15 +157,24 @@ section h2 {
     padding: 50px 100px
 }
 
+.sized{
+    padding-left: 160px;
+    padding-right: 160px;
+}
 /* Modifica img centrata */
 img.centro {
-    width: 100%;
+    width: 1100px;
 }
 
 .stars img{
-    margin-bottom: -100px;
+    margin-bottom: ;
+    width: 30%;
 }
 
+h3 {
+    padding-bottom: 50px;
+    font-size: 40px;
+}
 /* Wave */
 .wave1{
     color: #f6f6f6;
@@ -169,10 +183,38 @@ img.centro {
 
 .wave2{
     color: #ffffff;
-    margin-top: -100px;
+    margin-top: -90px;
 }
 
 .wave3{
     color: #F6F6F6;
     margin-bottom: -10px;
+}
+
+/* Footer */
+li h2 {
+    color: #7289DA;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+li h4{
+    color: #7289DA;
+}
+li img{
+    width: 20px;
+}
+
+.flexfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+    line-height: 35px;
+}
+
+.fa-brands{
+    padding-right: 10px;
+    font-size: 25px;
+    padding-top: 15px;
 }
