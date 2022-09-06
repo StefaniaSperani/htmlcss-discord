@@ -262,7 +262,6 @@ hr{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
 .wrap img {
@@ -288,5 +287,4 @@ hr{
     background-color: #4752C4;
     padding: 20px;
     border-radius: 10px;
-
 }
