@@ -261,8 +261,8 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-        /* flex-wrap: wrap; */
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .wrap img {
@@ -278,6 +278,15 @@ hr{
     color: red;
 }
 
-.fleximg{
-    display: 
+#link {
+    color: #0A98D1;
+    text-decoration: underline;
+}
+
+.btn-accedi{
+    color: #ffffff;
+    background-color: #4752C4;
+    padding: 20px;
+    border-radius: 10px;
+
 }
